@@ -1,0 +1,57 @@
+/* src/components/Card.css */
+.card {
+  width: 80%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 16px;
+  background-color: #fff;
+}
+
+.card-header {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 4px;
+  margin-bottom: 4px;
+  color: black;
+  font-size: 0.7em;
+  text-align: left;
+}
+
+.card-body {
+  margin-bottom: 8px;
+  color: black;
+  text-align: left;
+  font-size: 0.6em;
+}
+
+.card-footer p {
+  text-align: right;
+  font-size: 12px;
+  color: black;
+  display: flex;
+}
+
+.card-priority {
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background-color: #2f7fd4;
+  border-radius: 5%;
+  height: 30px;
+}
+.card-priority p {
+  color: white;
+  font-size: 16px;
+  border-radius: 5%;
+  height: 24px;
+  padding: 10px;
+  font-style: bold;
+}
+
+.card-bottom{
+  display: flex;
+  justify-content: space-between;
+}
