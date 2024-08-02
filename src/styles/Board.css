@@ -1,0 +1,50 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 16px; 
+    padding: 16px;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; 
+  }
+  
+  .column-title {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: black;
+    text-align: left;
+    padding-left: 14px;
+  }
+  
+  .row{
+    height: 5px;
+    width: 100%;
+    background-color: #DBDED4;
+  }
+
+  .floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+  }
+  
+  .floating-button:hover {
+    background-color: #0056b3;
+  }
