@@ -37,21 +37,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: black;
-  background-color: #2f7fd4;
+  color: white;
   border-radius: 5%;
   height: 30px;
 }
+
 .card-priority p {
-  color: white;
   font-size: 16px;
   border-radius: 5%;
   height: 24px;
   padding: 10px;
-  font-style: bold;
+  font-weight: bold;
 }
 
-.card-bottom{
+.card-bottom {
   display: flex;
   justify-content: space-between;
 }
